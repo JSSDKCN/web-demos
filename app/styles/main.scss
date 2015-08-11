@@ -68,17 +68,59 @@ body {
 }
 
 
+.iphone5 {
+  border-radius: 50px;
+  height: 300px;
+  box-shadow: 1px 2px 3px #ccc;
+  border: 1px solid #ccc;
+}
+
 .image-move-scale {
   width: 300px;
   margin: 0 auto;
   height: 200px;
   background-color: #cbcbcb;
-  overflow: hidden;
   position: relative;
+  .iphone5-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    width: 300px;
+    border: 1px dotted #000088;
+    height: 600px;
+    .iphone5-inner-frame {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      border-radius: 50px;
+      width: 260px;
+      border: 1px dotted #000088;
+      height: 560px;
+    }
+    .iphone5-camera-frame {
+      position: absolute;
+      left: 40px;
+      top: 40px;
+      width: 84px;
+      height: 42px;
+      border-radius: 20px;
+      border: 1px dotted #000088;
+    }
+  }
+  .image-camera {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    width: 84px;
+    height: 42px;
+    background-image: url('images/camera.png');
+  }
   .image-panel {
     position: absolute;
     top: 0;
     left: 0;
+
     .image-node {
       width: 100%;
       height: 100%;
