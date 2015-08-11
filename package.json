@@ -40,9 +40,6 @@
       "mocha": true,
       "$": true
     },
-    "ecmaFeatures" : {
-
-    },
     "rules": {
       "quotes": [
         2,

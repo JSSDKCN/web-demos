@@ -1,4 +1,4 @@
-// Generated on 2015-08-09 using
+// Generated on 2015-08-10 using
 // generator-webapp 1.0.1
 'use strict';
 
@@ -444,7 +444,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('default', [
-   /* 'newer:eslint', */
+    /*'newer:eslint',*/
     'test',
     'build'
   ]);
